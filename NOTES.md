@@ -8,4 +8,8 @@
 ## Plans
 
 Pomodoro 1:
-- ⚠ TODO Plan pomodoro 1 
+- ✅ DONE Plan pomodoro 1 
+- ⚠ TODO Initial project refactor
+- ⚠ TODO add project description
+- ⚠ TODO add examples and create user Stories
+- 
