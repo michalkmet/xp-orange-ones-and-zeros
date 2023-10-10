@@ -50,6 +50,6 @@ As a user, I want to pass in array with 4 digits, so that I can see resultant de
 - ✅ DONE UAT2.1: When I pass [1, 0, 1, 0], Then it should return 10
 - ✅ DONE UAT2.2: When I pass [1, 0, 1, 1], Then it should return 11
 - ✅ DONE UAT2.3: When I pass [1, 1, 0, 0], Then it should return 12
-- ⚠ TODO UAT2.4: When I pass [1, 1, 0, 1], Then it should return 13
+- ✅ DONE UAT2.4: When I pass [1, 1, 0, 1], Then it should return 13
 - ⚠ TODO UAT2.5: When I pass [1, 1, 1, 0], Then it should return 14
 - ⚠ TODO UAT2.6: When I pass [1, 1, 1, 1], Then it should return 15
