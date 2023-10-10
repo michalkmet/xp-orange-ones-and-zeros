@@ -25,4 +25,7 @@ describe('User Story 1: array with digits -> return number < 10', () => {
   it('UAT1.8: When I pass [1, 0, 0, 0], Then it should return 8', () => {
     expect(binaryArrayToNumber([1, 0, 0, 0])).toBe(8);
   });
+  it('UAT1.9: When I pass [1, 0, 0, 1], Then it should return 9', () => {
+    expect(binaryArrayToNumber([1, 0, 0, 1])).toBe(9);
+  });
 });

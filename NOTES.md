@@ -42,5 +42,5 @@ As a user, I want to pass in array with 4 digits, so that I can see resultant de
 - ✅ DONE UAT1.7: When I pass [0, 1, 1, 1], Then it should return 7
 
 ## Pomodoro 3:
-- 🚧 IN PROGRESS UAT1.8: When I pass [1, 0, 0, 0], Then it should return 8
-- ⚠ TODO UAT1.9: When I pass [1, 0, 0, 1], Then it should return 9
+- ✅ DONE UAT1.8: When I pass [1, 0, 0, 0], Then it should return 8
+- ✅ DONE UAT1.9: When I pass [1, 0, 0, 1], Then it should return 9
