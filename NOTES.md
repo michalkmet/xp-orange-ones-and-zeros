@@ -39,6 +39,6 @@ As a user, I want to pass in array with 4 digits, so that I can see resultant de
 - ✅ DONE UAT1.4: When I pass [0, 1, 0, 0], Then it should return 4
 - ✅ DONE UAT1.5: When I pass [0, 1, 0, 1], Then it should return 5
 - ✅ DONE UAT1.6: When I pass [0, 1, 1, 0], Then it should return 6
-- ⚠ TODO UAT1.7: When I pass [0, 1, 1, 1], Then it should return 7
+- ✅ DONE UAT1.7: When I pass [0, 1, 1, 1], Then it should return 7
 - ⚠ TODO UAT1.8: When I pass [1, 0, 0, 0], Then it should return 8
 - ⚠ TODO UAT1.9: When I pass [1, 0, 0, 1], Then it should return 9
