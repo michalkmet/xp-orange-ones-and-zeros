@@ -33,15 +33,15 @@ However, the arrays can have varying lengths, not just limited to 4.
 User Story 1: array with digits -> return number < 10
 As a user, I want to pass in array with 4 digits, so that I can see resultant decimal number
 
-- ⚠ TODO UAT1.1: When I pass [0, 0, 0, 1], Then it should return 1
-- ⚠ TODO UAT1.2: When I pass [0, 0, 1, 0], Then it should return 2
-- ⚠ TODO UAT1.3: When I pass [0, 0, 1, 1], Then it should return 3
-- ⚠ TODO UAT1.4: When I pass [0, 1, 0, 0], Then it should return 4
-- ⚠ TODO UAT1.5: When I pass [0, 1, 0, 1], Then it should return 5
-- ⚠ TODO UAT1.6: When I pass [0, 1, 1, 0], Then it should return 6
-- ⚠ TODO UAT1.7: When I pass [0, 1, 1, 1], Then it should return 7
-- ⚠ TODO UAT1.8: When I pass [1, 0, 0, 0], Then it should return 8
-- ⚠ TODO UAT1.9: When I pass [1, 0, 0, 1], Then it should return 9
+- ✅ DONE UAT1.1: When I pass [0, 0, 0, 1], Then it should return 1
+- ✅ DONE UAT1.2: When I pass [0, 0, 1, 0], Then it should return 2
+- ✅ DONE UAT1.3: When I pass [0, 0, 1, 1], Then it should return 3
+- ✅ DONE UAT1.4: When I pass [0, 1, 0, 0], Then it should return 4
+- ✅ DONE UAT1.5: When I pass [0, 1, 0, 1], Then it should return 5
+- ✅ DONE UAT1.6: When I pass [0, 1, 1, 0], Then it should return 6
+- ✅ DONE UAT1.7: When I pass [0, 1, 1, 1], Then it should return 7
+- ✅ DONE UAT1.8: When I pass [1, 0, 0, 0], Then it should return 8
+- ✅ DONE UAT1.9: When I pass [1, 0, 0, 1], Then it should return 9
 
 User Story 2: array with digits -> return number > 10 and number < 16 
 As a user, I want to pass in array with 4 digits, so that I can see resultant decimal number
