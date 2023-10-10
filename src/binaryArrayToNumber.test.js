@@ -22,4 +22,7 @@ describe('User Story 1: array with digits -> return number < 10', () => {
   it('UAT1.7: When I pass [0, 1, 1, 1], Then it should return 7', () => {
     expect(binaryArrayToNumber([0, 1, 1, 1])).toBe(7);
   });
+  it('UAT1.8: When I pass [1, 0, 0, 0], Then it should return 8', () => {
+    expect(binaryArrayToNumber([1, 0, 0, 0])).toBe(8);
+  });
 });
