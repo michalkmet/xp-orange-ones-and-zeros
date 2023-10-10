@@ -1,12 +1,20 @@
 function binaryArrayToNumber(arrWithDigits) {
   console.log('arrWithDigits: ', arrWithDigits);
-  console.log('arrWithDigits.toString(): ', arrWithDigits.toString());
-  if (arrWithDigits.toString() == [0, 0, 1, 0]) {
-    return 2;
-  } else if (arrWithDigits.toString() == [0, 0, 1, 1]) {
-    return 3;
+
+  let result = 0;
+
+  if (arrWithDigits[arrWithDigits.length - 1] === 1) {
+    result += 1;
   }
-  return 1;
+  if (arrWithDigits[arrWithDigits.length - 2] === 1) {
+    result += 2;
+  }
+  if (arrWithDigits[arrWithDigits.length - 3] === 1) {
+    result += 4;
+  }
+
+  console.log('result: ', result);
+  return result;
 }
 
 module.exports = binaryArrayToNumber;
