@@ -1,5 +1,5 @@
 function binaryArrayToNumber() {
-  return 'hello';
+  return 1;
 }
 
 module.exports = binaryArrayToNumber;
