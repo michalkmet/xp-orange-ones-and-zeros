@@ -1,8 +1,5 @@
 function binaryArrayToNumber(arrWithDigits) {
-  console.log('arrWithDigits: ', arrWithDigits);
-
   let result = 0;
-
   for (let i = 1; i <= arrWithDigits.length; i++) {
     if (arrWithDigits[arrWithDigits.length - i] === 1) {
       if (i === 1) {
@@ -12,8 +9,6 @@ function binaryArrayToNumber(arrWithDigits) {
       }
     }
   }
-
-  console.log('result: ', result);
   return result;
 }
 
