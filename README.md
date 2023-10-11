@@ -51,3 +51,12 @@ As a user, I want to pass in array with 4 digits, so that I can see resultant de
 - ✅ DONE UAT2.4: When I pass [1, 1, 0, 1], Then it should return 13
 - ✅ DONE UAT2.5: When I pass [1, 1, 1, 0], Then it should return 14
 - ✅ DONE UAT2.6: When I pass [1, 1, 1, 1], Then it should return 15
+
+ 
+User Story 3: array with digits -> return number > 15
+As a user, I want to pass in array with more than 4 digits, so that I can see resultant decimal number
+
+- ⚠ TODO UAT3.1: When I pass [1, 0, 0, 0, 1], Then it should return 16
+- ⚠ TODO UAT3.2: When I pass [1, 0, 0, 0, 0, 0], Then it should return 32
+- ⚠ TODO UAT3.3: When I pass [1, 0, 0, 0, 0, 0, 1], Then it should return 65
+- ⚠ TODO UAT3.4: When I pass [1, 0, 0, 0, 0, 0, 0, 0], Then it should return 128

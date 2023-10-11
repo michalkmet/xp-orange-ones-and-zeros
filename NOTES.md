@@ -55,4 +55,5 @@ As a user, I want to pass in array with 4 digits, so that I can see resultant de
 - ✅ DONE UAT2.6: When I pass [1, 1, 1, 1], Then it should return 15
 
 ## Pomodoro 4:
-- ⚠ TODO plan pomodoro 4
+- ✅ DONE plan pomodoro 4
+- ✅ DONE create user story 3
