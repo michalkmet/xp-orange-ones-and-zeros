@@ -64,5 +64,5 @@ As a user, I want to pass in array with more than 4 digits, so that I can see re
 
 - ✅ DONE UAT3.1: When I pass [1, 0, 0, 0, 1], Then it should return 17
 - ✅ DONE UAT3.2: When I pass [1, 0, 0, 0, 0, 0], Then it should return 32
-- ⚠ TODO UAT3.3: When I pass [1, 0, 0, 0, 0, 0, 1], Then it should return 65
+- ✅ DONE UAT3.3: When I pass [1, 0, 0, 0, 0, 0, 1], Then it should return 65
 - ⚠ TODO UAT3.4: When I pass [1, 0, 0, 0, 0, 0, 0, 0], Then it should return 128
